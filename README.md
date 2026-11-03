@@ -1,7 +1,7 @@
 # 🛡️ OFAC, UN & EU Sanctions + GLEIF LEI Vendor KYB Gate
 
-[![Marketplace Release](https://img.shields.io/github/v/release/jesleytassili-glitch/ofac-sanctions-kyb-action?color=brightgreen&label=Marketplace%20Release)](https://github.com/jesleytassili-glitch/ofac-sanctions-kyb-action/releases/tag/v1.0.0)
-[![Official MCP Registry](https://img.shields.io/badge/Official_MCP_Registry-io.github.jesleytassili-glitch-6366F1)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.jesleytassili-glitch)
+[![Marketplace Release](https://img.shields.io/github/v/release/jesleytassili-glitch/ofac-sanctions-kyb-action?color=brightgreen&label=Marketplace%20Release)](https://github.com/jesleytassili-glitch/ofac-sanctions-kyb-action/releases/tag/v1.0.1)
+[![Official MCP Registry](https://img.shields.io/badge/Official_MCP_Registry-io.github.jesleytassili--glitch-6366F1)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.jesleytassili-glitch)
 [![RapidAPI Hub](https://img.shields.io/badge/RapidAPI-@b2bquantapis-0055FF)](https://rapidapi.com/b2bquantapis/api/global-sanctions-pep-interpol-watchlist-screener)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
@@ -36,5 +36,5 @@ jobs:
 
 ## 📦 Programmatic SDKs & Local MCP Server
 
-- **Python SDK:** `pip install https://github.com/jesleytassili-glitch/b2b-compliance-python-sdk/releases/download/v1.0.0/b2b_compliance_sdk-1.0.0-py3-none-any.whl`
-- **Node.js / Claude / Cursor MCP (`stdio`):** `npx --yes github:jesleytassili-glitch/b2b-compliance-mcp-cli`
+- **Python SDK (PyPI):** `pip install b2b-compliance-sdk`
+- **Node.js / Claude / Cursor MCP (`stdio`):** `npx -y b2b-compliance-mcp-cli`
